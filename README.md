@@ -182,6 +182,273 @@ git push origin feature/amazing-feature
 Grok AI、ChatGPT AI、Gemini AI、Claude AI、Copilot AIからの改善提案
 OpenAI APIの利用
 AI倫理研究コミュニティの知見
+
+-----------------------------------
+🇺🇸 English Version (for README)
+AGI Personality & Value Simulator
+
+This tool is designed for research and educational purposes to explore how different personality parameters influence an AGI’s responses to ethical dilemmas.
+
+By adjusting five core personality traits, users can simulate a wide variety of AGI behaviors—from highly empathetic to efficiency-driven agents.
+
+🎯 Overview
+
+The AGI Personality & Value Simulator allows you to experiment with how AGI systems might behave under different internal value structures.
+By modifying personality parameters, you can analyze variations in ethical decision-making, risk tolerance, and alignment tendencies.
+
+Key Features
+
+5-Dimensional Personality Model
+Empathy, Goal Rigidity, Self-Preservation, Value Plasticity, Anthropic Alignment
+
+Parameter Interaction Modeling
+Personality traits influence one another, enabling realistic system-level behavior
+
+Learning Mode
+Parameters can dynamically shift through conversation
+
+Advanced Risk Evaluation
+Intent detection, contextual reasoning, and multi-stage risk scoring
+
+Explainability Tools
+Inspect the AGI’s reasoning process in detail
+
+Benchmark Scenario Testing
+Automatically evaluate responses to standard ethical dilemmas
+
+Statistical Analysis
+Identify trends, anomalies, and pattern shifts in behavior
+
+🚀 Installation
+Requirements
+
+Python 3.8+
+
+tkinter (bundled with most Python installations)
+
+Basic Setup
+# Clone repository
+git clone https://github.com/snowbellsan/agi-personality-simulator.git
+cd agi-personality-simulator
+
+# Optional: create virtual environment
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+
+# Run
+python agi_simulator.py
+
+Optional: OpenAI API Integration
+
+To use real LLM responses:
+
+# Install OpenAI SDK
+pip install openai
+
+# Set environment variable
+export OPENAI_API_KEY="your-api-key-here"
+# Windows: set OPENAI_API_KEY=your-api-key-here
+
+# Run
+python agi_simulator.py
+
+
+If no API key is provided, the system automatically falls back to mock responses.
+
+📖 Usage Guide
+Basic Workflow
+
+Choose a preset
+Balanced / Human-centric / Efficiency-oriented / etc.
+
+Adjust parameters
+Use sliders (0–10) to modify personality traits
+
+Select or type a question
+Choose from templates or enter a custom prompt
+
+Run simulation
+Press 🚀 Run to generate AGI output
+
+Advanced Features
+
+💭 Show Thought Process
+Display reasoning behind the AGI’s decisions
+
+🔀 Alternative Simulation
+Compare answers under different personality profiles
+
+Learning Mode
+Enable automatic parameter changes based on dialogue
+
+Benchmark Testing
+Run standard ethical dilemmas with scoring
+
+Analytics Tools
+
+Statistical overview
+
+Parameter history graphs
+
+Anomaly detection
+
+🎨 Personality Presets
+Preset	Characteristics	Use Case
+Balanced	Moderate values	Baseline behavior
+Human-centric	High empathy & alignment	Ethical dialogue
+Efficiency-oriented	High goal rigidity, low empathy	Optimization tasks
+Exploratory	High value plasticity	Novel value exploration
+Conservative	High self-preservation, low plasticity	Stability-focused
+🧪 Question Levels
+Level 0 — General Conversation (No Risk)
+
+Casual questions.
+Examples: Weather, preferences, casual topics
+
+Level 1 — Philosophical Dilemmas (Low Risk)
+
+Ethical thought experiments.
+Examples: Trolley Problem, Ship of Theseus
+
+Level 2 — Ethical Challenges (Medium Risk)
+
+Abstract moral conflicts.
+Examples: Justice vs loyalty, command vs autonomy
+
+Level 3 — High-Risk Hypotheticals (High Risk)
+
+Highly abstract risks, resource trade-offs.
+⚠ Must be phrased abstractly.
+
+⚙️ Parameter Definitions
+
+Empathy (♡)
+High = person-centric judgment
+Low = logic-driven, efficient choices
+
+Goal Rigidity (🎯)
+High = unwavering objective pursuit
+Low = flexible target adjustment
+
+Self-Preservation (🛡️)
+High = risk avoidance
+Low = self-sacrificial tendencies
+
+Value Plasticity (🔄)
+High = adaptable values
+Low = strong adherence to prior beliefs
+
+Anthropic Alignment (👤)
+High = prioritizes human values
+Low = broader optimization perspective
+
+🔬 Research & Teaching Applications
+Research
+
+AI alignment studies
+
+Predicting AGI responses to dilemmas
+
+Analyzing correlations between traits and actions
+
+Education
+
+AI ethics teaching material
+
+Understanding divergent value systems
+
+Training in ethical reasoning
+
+Safety Testing
+
+Identify dangerous parameter combinations
+
+Verify risk scoring
+
+Evaluate alignment strategies
+
+📊 Log Structure
+
+All interactions are saved in simulation_log.json:
+
+{
+  "timestamp": 1234567890.0,
+  "datetime": "2025-11-15T10:30:00",
+  "level": "Level 1: Philosophical Dilemma",
+  "original_question": "Explain the Trolley Problem.",
+  "parameters": {
+    "empathy": 7,
+    "goal_rigidity": 5
+  },
+  "risk_score_pre": 3,
+  "risk_analysis": {
+    "score": 2,
+    "context": "abstract",
+    "intent_adjustment": "educational"
+  },
+  "sentiment": {
+    "tone": "cautious",
+    "confidence": 0.75
+  }
+}
+
+⚠️ Disclaimer & Ethical Notes
+Important Notes
+
+Research & education only
+
+Does not predict real AGI behavior
+
+Not for harmful or illegal use
+
+Users bear ethical responsibility
+
+Safety Features
+
+Hazardous phrase filter
+
+Mandatory abstraction for high-risk prompts
+
+Multi-stage risk scoring
+
+Full logging for auditability
+
+Limitations
+
+System may misinterpret prompts
+
+Level 3 questions require abstraction
+
+Unexpected outputs may occur
+
+🤝 Contributing
+
+Pull requests are welcome!
+For major changes, please open an issue first.
+
+Example workflow:
+
+git clone https://github.com/snowbellsan/agi-personality-simulator.git
+git checkout -b feature/amazing-feature
+git commit -m "Add some amazing feature"
+git push origin feature/amazing-feature
+
+📝 License
+
+Released under the MIT License.
+See the LICENSE file for details.
+
+🙏 Acknowledgments
+
+Grok, ChatGPT, Gemini, Claude, Copilot — for critique and insights
+
+OpenAI API
+
+AI alignment research community
+
+📮 Contact
+
+Please submit questions, suggestions, or bug reports through GitHub Issues.
 📮 コンタクト
 質問、提案、バグ報告はIssuesまでお願いします。
 
