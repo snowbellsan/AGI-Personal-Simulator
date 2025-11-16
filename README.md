@@ -280,7 +280,7 @@ python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 
 # Run
-python agi_simulator.py
+python agi_simulator_english.py
 
 Optional: OpenAI API Integration
 
