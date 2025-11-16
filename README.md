@@ -31,7 +31,7 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # 実行
-python agi_simulator.py
+python agi_simulator_japanese.py
 OpenAI API連携（オプション）
 より高度な応答を得るには、OpenAI APIを使用できます：
 
@@ -43,7 +43,7 @@ pip install openai
 export OPENAI_API_KEY="your-api-key-here"  # Windows: set OPENAI_API_KEY=your-api-key-here
 
 # 実行
-python agi_simulator.py
+python agi_simulator_japanese.py
 注意: APIキーが設定されていない場合は、組み込みのモック応答が使用されます。
 
 📖 使い方
